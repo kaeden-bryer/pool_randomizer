@@ -51,7 +51,7 @@ if __name__ == "__main__":
     pool_count = 5
     pool_size = 6
 
-    ghosts = pool_count * pool_size - len(pairs)
+    ghosts = pool_count * pool_size - len(pairs) # number of ghosts needed to make even pools
     
     pools = make_pools(pairs, pool_count, ghosts)
 
