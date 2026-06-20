@@ -27,6 +27,7 @@ pairs = [
     "Mitch & Grace",
     "Nathan & Teresa",
     "Sarah & Jaden",
+    "Troy & Jennifer"
 ]
 
 def make_pools(pairs, pool_count, ghosts):
